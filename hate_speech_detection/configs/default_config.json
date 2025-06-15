@@ -1,0 +1,9 @@
+{
+  "model_name": "bert-base-chinese",
+  "max_length": 128,
+  "batch_size": 32,
+  "learning_rate": 2e-5,
+  "epochs": 5,
+  "target_groups": ["Racism", "Gender", "LGBTQ", "others", "non-hate"],
+  "hate_labels": ["non-hate", "hate"]
+}
